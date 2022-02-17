@@ -1,0 +1,4 @@
+"indian"
+"low-sodium"
+200
+500
