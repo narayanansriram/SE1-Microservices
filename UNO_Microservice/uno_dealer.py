@@ -13,7 +13,7 @@ num_cards = int(lines[1].rstrip('\n'))
 # print(players,num_cards)
 uno_deck_colors = ['Red','Yellow','Green','Blue']
 uno_deck_types = [0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,"Skip","Skip","Draw Two","Draw Two","Reverse","Reverse"]
-uno_wild_cards = [("Wild",None)]*4 + [("Wild Draw Four",None)]*4
+uno_wild_cards = [(None,"Wild")]*4 + [(None,"Wild Draw Four")]*4
 for color in uno_deck_colors:
     for type in uno_deck_types:
         card = (color,type)

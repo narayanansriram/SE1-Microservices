@@ -1,1 +1,6 @@
-{"maxCalories": 500, "minCalories": 200, "cuisine": "indian", "diets": "ketogenic"}
+{
+  "maxCalories": 600,
+  "minCalories": 100,
+  "cuisine": "chinese",
+  "diets": "ketogenic"
+}
